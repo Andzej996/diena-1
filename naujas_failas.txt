@@ -1,4 +1,0 @@
-Siandien yra pirma diena apie GIT
-
-Papildau dar tekstu
--m
