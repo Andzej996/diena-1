@@ -1,19 +1,79 @@
 body {
-  background: #f2e9d8;
+  background: #c4b69b;
+  background-color: rgba (0, 255, 255, 0.5);
+}
+img {
+  opacity: 0.9;
 }
 h1,
 h2 {
-  color: rgba (255, 255, 255, 255);
-}
-body > table {
-  
-}
-td {
-  color: rgba (255, 255, 255, 0.6);
+  color: rgba(0, 0, 0, 0.4);
 }
 
-body {
-  font-family: "Playwrite ES Deco Guides", serif;
-  font-weight: 400;
-  font-style: normal;
+body > table {
+  background-image: url(/folderis/Paveiksliukai/medium.webp);
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
 }
+td {
+  color: rgba(172, 14, 14, 0.851)
+}
+td.langeliai {
+  color:rgba(255, 255, 255, 0.8)
+}
+p#pirmas-paragrafas mark {
+  color: rgba(88, 47, 47, 0.554)
+  background: none
+}
+h1 { 
+  font-weight: 300;
+  text-transform: uppercase;
+}
+h1:nth-child(2){
+  text-transform: capitalize;
+  font-size: 10px;
+}
+h1:nth-child(3) {
+  text-transform: capitalize;
+  font-size: 15px;
+}
+h1:nth-child(4) {
+  text-transform: 500;
+  font-size: 20px;
+}
+h1:nth-child(5) {
+  text-transform: 600;
+  font-size: 30px;
+}
+p {
+  text-align: justify;
+}
+table {
+  border: 2px solid red;
+  border-collapse: collapse;
+}
+
+ul {
+  list-style-type: square;
+}
+ol {
+  list-style-type: upper-roman;
+}
+ul.sarasas {
+  list-style-type: none;
+padding:10px ;
+text-align: justify;}
+
+ul.sarasas > li::before {
+  content: '\2664' ;
+  color: red;
+}
+ul.sarasas {
+  border: 5px solid red;
+  padding: 20px;
+  margin: 20px
+}
+.blokas {width:150px;
+border: 5px solid red;
+margin: 0 auto}
