@@ -1,0 +1,36 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-image: url(https://images.fineartamerica.com/images-medium-5/3-zen-stylianos-kleanthous.jpg);
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  height: 100vh;
+}
+header #info h1 {
+  margin: 0;
+  display: inline-block;
+  color: red;
+  background-color: blue;
+  font-size: 2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+header #info p {
+  background-color: rgb(170, 225, 206, 0.6);
+  color: blueviolet;
+  font-size: 20px;
+  max-width: 100%;
+}
+header #info {
+  position: absolute;
+  margin: 0;
+  left: 25px;
+  bottom: 30px;
+}
