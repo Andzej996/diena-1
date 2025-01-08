@@ -4,11 +4,10 @@ html {
 div {
   position: relative;
   width: 276px;
-  height: 400px;
-  top: 90px;
-  left: 136px;
-  border-radius: 12px 12px 12px 12px;
+  border-radius: 12px;
   background-color: white;
+  padding: 0;
+  margin: 0 auto;
 }
 #maistas {
   width: 276px;
@@ -27,42 +26,30 @@ div {
   position: relative;
   color: #c0b9b9;
   width: 13px;
-  height: 22px;
   font-size: 24px;
   line-height: 22px;
-  size: 14px;
-  left: 20px;
   font-weight: 400;
-  top: -50px;
+  margin: 0;
+  top: -25px;
 }
 
 #stars {
   position: relative;
   color: #111111;
   width: 250px;
-  height: 48px;
   font-weight: 700;
   font-size: 24px;
   line-height: 22px;
-  size: 14px;
-  left: 20px;
-  top: -50px;
+  top: -25px;
 }
 #book {
   position: relative;
   width: 52px;
   height: 52px;
   border-radius: 200px;
-  top: px;
 }
+
 button {
-  position: relative;
-  width: 32px;
-  height: 32px;
-  border-radius: 200px;
-  top: -60px;
-  border: 1px solid rgba(149, 147, 147, 1);
-  left: 10px;
-  right: 10px;
-  margin: 10px;
+  background: none;
+  border: 0;
 }
