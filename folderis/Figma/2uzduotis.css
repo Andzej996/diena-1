@@ -1,0 +1,67 @@
+body {
+  background: black;
+  padding: 105px 70px;
+}
+
+.blokas {
+  background: rgba(34, 34, 37, 0.7);
+  padding: 66px 72px;
+  border-radius: 12px;
+  width: 675px;
+  margin: 0 auto;
+  position: relative;
+}
+.blokas h1 {
+  width: 531px;
+  height: 96px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0.42px;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 17px;
+}
+
+.blokas p {
+  width: 525px;
+  height: 52px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 17px;
+}
+.blokas button {
+  align-items: center;
+  padding: 8px 16px;
+  border: 2px solid #f17965;
+  border-radius: 12px;
+  background: none;
+  color: #f17965;
+  transition: all 0.5s ease;
+}
+
+.blokas button:hover {
+  color: white;
+  background: #f79090;
+  cursor: pointer;
+}
+.blokas .image1 {
+  position: absolute;
+  top: -110px;
+  left: -85px;
+}
+
+.blokas .image2 {
+  position: absolute;
+  bottom: -42px;
+  right: -19px;
+}

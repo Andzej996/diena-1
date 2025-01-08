@@ -1,0 +1,77 @@
+img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.vazonospalva {
+  width: 80px;
+}
+.inner {
+  box-shadow: 0px 0px 10px black;
+  border-radius: 10px;
+  position: relative;
+}
+.textwrap {
+  padding: 10px;
+}
+#wrap {
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+h1 {
+  position: absolute;
+  top: -80px;
+  margin: 0px;
+}
+.pirkti {
+  font-size: 25px;
+  width: 70px;
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+}
+.pirkti p {
+  border: 1px solid rgb(68, 185, 0);
+  text-align: center;
+}
+
+.pirkti p:hover {
+  color: white;
+  background-color: rgb(0, 165, 69);
+  cursor: pointer;
+}
+.pirkti p:active {
+  background-color: rgb(1, 114, 48);
+}
+.inner:hover {
+  border: 1px solid green;
+}
+@media only screen and (max-width: 1023px) {
+  .inner {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  #wrap {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .inner {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .inner {
+    width: 100%;
+  }
+  #wrap {
+    flex-wrap: wrap;
+  }
+}

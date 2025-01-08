@@ -1,0 +1,76 @@
+.blokas1 {
+  background: rgb(231, 211, 173);
+  height: 100%;
+}
+
+.blokas1 .tekstas {
+  font-size: 25px;
+  display: flex;
+  padding-top: 35px;
+  padding-left: 20px;
+  align-items: start;
+}
+.blokas1 .Nuoroda {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  width: 100%;
+  gap: 20px;
+  position: relative;
+  top: -23px;
+  right: 30px;
+}
+.blokas2 {
+  background: purple;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+.daugbloku {
+  background-color: rgb(197, 193, 193);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  background: cover;
+  top: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding: 40px;
+}
+
+.blokublokas {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px red;
+  font-weight: 400;
+  background: white;
+  border: 1px solid #333;
+  padding: 20px;
+}
+.textb1 {
+  position: relative;
+  top: 9px;
+  display: flex;
+  justify-content: start;
+  text-align: center;
+}
+.textb2 {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  text-align: center;
+  top: -10px;
+}
+.blokas3 {
+  background: rgb(180, 153, 145);
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+.textb3 {
+  text-align: center;
+  position: relative;
+  top: -28px;
+}
