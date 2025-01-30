@@ -1,0 +1,285 @@
+body {
+  font-family: "Open Sans";
+  font-style: normal;
+}
+
+a.nav-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #222222 !important;
+  margin: 0 20px;
+}
+
+a.nav-link.active {
+  color: #eb5757 !important;
+}
+
+.nuotrauka {
+  background-image: url(https://s3-alpha-sig.figma.com/img/8b67/d899/49d7bbb36792b9a824e3ed67078b2188?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DeXyielDGYBWwFKYHzON-AfefVkLrMkOAywrooYldBhGrcwbDEQdor1KlVpGUCzkubiYeMWFFRSU1dvSvLHgGFPtAg~OvtKLe~a2fwfAOc~6I2-8DgR5UrtP0t~sq433ASCu6sHX8OwyWKU-W-St9OIJoOBl2zZrFNFD-7qdODoaF80YJH4Zl32yJZgQi15O2YL6OJ-nI8TcJysAQmKdUA-YD4eP8RxmInDmhqjMN~fXt~b4gUEjBJOUqLfp9DFyspSfQMr1oozDzbW~IT36tlyqGyS7bJiS1LTDVNgI9an6bURkIGyMBQB6Fd9gqj1WSdZEJf2zWXZbzN6TsOeyFw__);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 880px;
+}
+
+.nuotrauka h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 94px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  word-wrap: break-word;
+
+  color: #ffffff;
+}
+
+.nuotrauka h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 54px;
+  text-align: center;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 40px;
+}
+
+button.raudonas,
+button.baltas {
+  width: 200px;
+  height: 52px;
+  border: 0;
+}
+
+button.raudonas {
+  background: #eb5757;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 1px;
+
+  color: #ffffff;
+}
+
+button.baltas {
+  background: #ffffff;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1px;
+
+  color: #eb5757;
+}
+
+button.baltas:hover {
+  background: #eb5757;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+}
+
+.nuotrauka button.raudonas {
+  margin-right: 20px;
+}
+
+.raudonasfonas {
+  background: #eb5757;
+}
+
+.raudonasfonas .tekstas {
+  color: white;
+  padding: 40px 0;
+  width: 80%;
+}
+
+.bilietai h1,
+.galerija h1,
+.atlikejai h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #222222;
+}
+
+.bilietai .linija,
+.galerija .linija,
+.atlikejai .linija {
+  background: #eb5757;
+  width: 31px;
+  height: 5px;
+  margin: 19px auto;
+}
+
+.bilietai p,
+.galerija p,
+.atlikejai p {
+  max-width: 735px;
+  margin: 0 auto;
+}
+
+.atlikejai svg {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.atlikejai span {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.atlikejai p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 8px;
+  color: #222222;
+}
+
+.atlikejai {
+  padding-top: 100px;
+  padding-bottom: 135px;
+}
+
+.galerija {
+  background: rgba(235, 87, 87, 0.1);
+  padding-top: 100px;
+  padding-bottom: 135px;
+}
+
+.galerija img {
+  height: 250px;
+}
+
+.bilietai {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  background: #f8f8f8;
+}
+
+.bilietai .paketas {
+  background: white;
+}
+
+.bilietai .paketas .pavadinimas {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #222222;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.bilietai .paketas hr {
+  margin: 0;
+}
+
+.bilietai .informacija {
+  padding: 30px;
+  text-align: center;
+}
+
+.bilietai .informacija .kaina {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: #222222;
+  margin-top: 25px;
+}
+
+.bilietai .informacija .kaina span {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: #eb5757;
+}
+
+.susisiekti label {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  text-transform: uppercase;
+  text-align: left;
+
+  color: #222222;
+  margin-bottom: 20px;
+}
+
+.susisiekti input {
+  border-radius: 0;
+  height: 40px;
+}
+
+.susisiekti button {
+  margin-top: 36px;
+}
+
+footer {
+  background: white;
+  padding: 71px 0 59px 0;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer .container-fluid {
+  width: 80%;
+}

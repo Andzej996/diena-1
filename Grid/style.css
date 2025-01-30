@@ -1,1 +1,54 @@
+.navbar {
+  height: 80px;
+}
 
+.hero .row {
+  height: 800px;
+}
+
+.hero h1 {
+  color: white;
+}
+.hero p {
+  margin-top: 33px;
+  color: #d5d7d8;
+}
+.hero button {
+  background-color: green;
+  width: 191px;
+  height: 47px;
+  color: white;
+}
+.punktai {
+  padding: 129px 0;
+}
+.svgpaveiksliukas {
+  width: 100%;
+}
+.punktas h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #404445;
+}
+
+.punktas p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #5f6b81;
+}
+.melsvas {
+  background: white;
+  padding: 112px 0;
+}
+.meslvas p {
+  width: 1920px;
+  height: 879px;
+
+  background: #f1f8ff;
+}

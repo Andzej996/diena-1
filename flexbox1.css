@@ -1,0 +1,140 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 160px;
+  gap: 128px;
+
+  height: 88px;
+  left: 0px;
+  top: 0px;
+  text-decoration: none;
+  background: #000000;
+}
+.header a {
+  margin: 0 auto;
+  width: 119px;
+  height: 23px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-variant: all-small-caps;
+
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.ledas {
+  margin: 0 auto;
+  width: 56px;
+  height: 56px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.hero {
+  background-image: url(/folderis/Paveiksliukai/ledai.png);
+  height: 936px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagrindinis {
+  margin-top: 80px;
+  justify-content: center;
+  text-align: center;
+  width: 1120px;
+  height: 728px;
+  background: #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+}
+.pagrindinis .h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #ffffff;
+}
+
+.pagrindinis .h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+}
+
+.card {
+  border: white solid 3px;
+  width: 28%;
+  order: 0;
+  flex-grow: 0;
+  padding: 46px 0 34px;
+}
+
+.pagrindinis button {
+  width: 159px;
+  height: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 23px;
+  background: none;
+  letter-spacing: 0.08em;
+  font-variant: all-small-caps;
+  border: none;
+  color: #9661e8;
+}
+
+.pagrindinis button:hover {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 23px;
+  letter-spacing: 0.08em;
+  font-variant: all-small-caps;
+  color: #a371ed;
+  border-color: #a371ed;
+  border: solid #a371ed;
+}
+
+footer {
+  background-color: black;
+  background: cover;
+  color: white;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 8px;
+  gap: 8px;
+  background: #000000;
+}
