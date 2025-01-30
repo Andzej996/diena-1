@@ -1,0 +1,759 @@
+body {
+  background-color: rgba(43, 43, 43, 1);
+}
+.navbar {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.navbar-nav {
+  color: rgb(246, 238, 238);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.nav-link {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+.nav-item button {
+  gap: 12px;
+  background: #a259ff;
+  border-radius: 20px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}
+.button {
+  gap: 12px;
+  background: #a259ff;
+  border-radius: 20px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}
+
+.container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 1050px;
+  height: 564px;
+  margin-bottom: 80px;
+}
+
+.container .tekstas {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 510px;
+  height: 544px;
+  color: white;
+}
+
+.container .tekstas h1 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 67px;
+  line-height: 110%;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.container .tekstas p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.container .skaiciu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 510px;
+  height: 77px;
+  border-radius: 20px;
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.container .skaiciai h1 {
+  width: 150px;
+  height: 39px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.container .skaiciai p {
+  width: 150px;
+  height: 38px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23.99px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.trending .kortutekstas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 1046px;
+  height: 91px;
+  margin-top: 160px;
+  margin-left: 197px;
+}
+.trending .kortutekstas h1 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.trending .kortutekstas p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.kortos {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 1050px;
+  height: 525px;
+  margin-left: 197px;
+}
+.kureju {
+  display: flex;
+  flex-direction: column;
+  margin-top: 160px;
+}
+
+.topcreators {
+  display: flex;
+  flex-direction: row;
+}
+.topcreators .topai {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 703px;
+  height: 91px;
+  color: white;
+}
+.topcreators .topai h1 {
+  width: 703px;
+  height: 46px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.topcreators .topai p {
+  width: 703px;
+  height: 35px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.topcreators .raketai {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 50px;
+  gap: 12px;
+  width: 247px;
+  height: 60px;
+  border: 2px solid #a259ff;
+  border-radius: 20px;
+  margin-top: 31px;
+}
+
+.topcreators .raketa {
+  background: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 50px;
+  gap: 12px;
+  width: 247px;
+  height: 60px;
+  border: 2px solid #a259ff;
+  border-radius: 20px;
+  color: white;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.kureju .kurejai {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 1050px;
+  height: 774px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.kureju .kurejai1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 1050px;
+  height: 238px;
+}
+.kureju .kurejai2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 1050px;
+  height: 238px;
+}
+.kategorijos {
+  margin-top: 348px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 60px;
+  width: 1280px;
+  height: 928px;
+}
+.kategorijos h1 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-left: 195px;
+}
+.kategorijos .hobiai {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  margin-left: 195px;
+}
+
+.grybas {
+  background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #a259ff 100%),
+    url(/folderis/Paveiksliukai/Screen=Tablet.png);
+  background-size: cover;
+  background-position: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px;
+
+  height: 660px;
+  flex: none;
+  order: 5;
+  align-self: stretch;
+  flex-grow: 0;
+  padding-bottom: 60px;
+}
+.grybai {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0px;
+}
+.grybas .shroomie {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  gap: 12px;
+  width: 151px;
+  height: 64px;
+  border: none;
+  background: #3b3b3b;
+  border-radius: 20px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: white;
+}
+.grybas .grybuelementai {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 755px;
+  height: 240px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.grybas .grybuelementai p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 51px;
+  line-height: 110%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.grybas .grybuelementai .seenft {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 22px 50px;
+  gap: 12px;
+  width: 198px;
+  height: 60px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.auction-timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 30px;
+  gap: 10px;
+  width: 295px;
+  height: 147px;
+  background: rgba(59, 59, 59, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.auction-timer p {
+  width: 235px;
+  height: 13px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  padding-top: 30px;
+}
+
+#hours,
+#minutes,
+#seconds {
+  width: 53px;
+  height: 46px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.labels {
+  width: 53px;
+  height: 13px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
+  display: flex;
+  color: #ffffff;
+  flex: none;
+  gap: 10px;
+}
+
+.how {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 195px;
+  gap: 48px;
+  height: 738px;
+  flex: none;
+}
+
+.hoitworks h1 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.hoitworks p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.pinigine {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 1050px;
+  height: 439px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 30px 30px;
+  gap: 20px;
+  width: 330px;
+  height: 439px;
+  background: #3b3b3b;
+  border-radius: 20px;
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.card-body h2 {
+  width: 270px;
+  height: 31px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.card-body p {
+  width: 270px;
+  height: 88px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+.paskutinis {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 40px 195px 80px;
+  gap: 10px;
+}
+
+.kosmonautas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 60px;
+  gap: 80px;
+  width: 1050px;
+  height: 430px;
+  background: #3b3b3b;
+  border-radius: 20px;
+}
+
+.kosmonautas .teksto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  width: 425px;
+  height: 272px;
+}
+
+.teksto h1 {
+  width: 425px;
+  height: 92px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.teksto p {
+  width: 425px;
+  height: 70px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.teksto .subscribe-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 0px 16px 20px;
+  gap: 12px;
+  width: 425px;
+  height: 60px;
+  background: #ffffff;
+  border-radius: 20px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  border: none;
+}
+.subscribe-form button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 50px;
+  gap: 12px;
+  width: 211px;
+  height: 60px;
+  background: #a259ff;
+  border-radius: 20px;
+  border: none;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 40px 195px;
+  gap: 30px;
+  height: 334px;
+  background: #3b3b3b;
+}
+.footer .bfoot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 31px;
+  padding-left: 146px;
+  padding-right: 146px;
+}
+
+.nft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 84px 0px 0px;
+  margin: 0 auto;
+  width: 327.41px;
+  height: 191px;
+}
+.nft h1 {
+  color: #ffffff;
+}
+
+.nft h2 {
+  width: 238px;
+  height: 44px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #cccccc;
+}
+.nft p {
+  width: 238px;
+  height: 18px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #cccccc;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.explore {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  margin: 0 auto;
+  width: 240px;
+  height: 166px;
+}
+
+.explore h1 {
+  width: 95px;
+  height: 35px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.explore p {
+  width: 70px;
+  height: 22px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #cccccc;
+}
+
+.join h1 {
+  width: 297px;
+  height: 35px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.join p {
+  width: 330px;
+  height: 44px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #cccccc;
+}
+.join .forma {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 0px 16px 20px;
+  gap: 12px;
+  width: 420px;
+  height: 60px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.forma button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 50px;
+
+  width: 2000px;
+  height: 60px;
+  background: #a259ff;
+  border-radius: 20px;
+  border: none;
+}

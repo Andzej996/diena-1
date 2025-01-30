@@ -1,0 +1,200 @@
+.navbar {
+  padding: 20px 0;
+}
+
+.navbar-nav .nav-link.active {
+  color: green;
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url(/folderis/Paveiksliukai/Rectangle\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero .row {
+  height: 800px;
+}
+
+.hero h1 {
+  color: white;
+}
+
+.hero p {
+  margin-top: 33px;
+  color: #d5d7d8;
+}
+
+.hero button {
+  width: 191px;
+  height: 47px;
+  background: #43c45f;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 0;
+  margin-top: 50px;
+}
+
+.punktai {
+  padding-top: 129px;
+  padding-bottom: 129px;
+}
+
+.svgPaveiksliukas svg {
+  width: 100%;
+}
+
+.punktas h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #404445;
+  margin-top: 18px;
+}
+
+.punktas p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5f6b81;
+}
+
+.melsvas {
+  background: #f1f8ff;
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
+
+.melsvas p,
+.tamsus p {
+  max-width: 648px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #5f6b81;
+  margin-top: 25px;
+}
+
+.melsvas iframe {
+  max-width: 750px;
+  width: 100%;
+  height: 450px;
+  margin-top: 54px;
+}
+
+.melsvas h3 {
+  font-size: 40px;
+}
+
+.statistika {
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
+
+.statistika h2 {
+  margin-top: 28px;
+  margin-bottom: 53px;
+}
+
+.statistika .skaiciai {
+  margin-top: 53px;
+}
+
+.statistika .skaiciai h3 {
+  margin-top: 19px;
+  margin-bottom: 10px;
+}
+
+.statistika .skaiciai p {
+  color: #5f6b81;
+}
+
+.tamsus {
+  background: #5f6b81;
+  padding-top: 112px;
+  padding-bottom: 138px;
+  color: white;
+}
+
+.tamsus p {
+  color: white;
+}
+
+.tamsus h3 {
+  color: white;
+  font-size: 40px;
+}
+
+.tamsus .input-group {
+  max-width: 540px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.tamsus input {
+  background: #ffffff;
+  padding-left: 20px;
+}
+
+.tamsus input:focus {
+  outline: none;
+}
+
+.tamsus input::placeholder {
+  color: #d8d8d8;
+}
+
+.tamsus #button-addon2 {
+  width: 179px;
+  height: 63px;
+  background: #43c45f;
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse .navbar-nav {
+    padding-top: 20px;
+  }
+}
+.input-group input {
+  height: 63px;
+  border-radius: 5px;
+}
+
+.tamsus #button-addon2 {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 14px;
+}
+
+.komanda p,
+.melsvas p,
+.tamsus p {
+  max-width: 648px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #5f6b81;
+  margin-top: 25px;
+}
+
+.melsvas iframe {
+  max-width: 750px;
+  width: 100%;
+  height: 450px;
+  margin-top: 54px;
+}

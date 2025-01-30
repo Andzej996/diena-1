@@ -1,0 +1,45 @@
+body {
+  background-color: rgba(212, 241, 230, 1);
+}
+.tekstas h1 {
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 120%;
+  color: #1f1f1f;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 44px;
+  margin-top: 48px;
+}
+.paskutinis {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 56px 60px;
+  gap: 16px;
+  width: 1136px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 24px;
+  margin-top: 59px;
+}
+
+.paskutinis .text {
+  width: 600px;
+  height: 420px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1f1f1f;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

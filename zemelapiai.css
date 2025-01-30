@@ -1,0 +1,155 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 300px;
+}
+.header a,
+.header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: none;
+  gap: 50px;
+  margin-right: 300px;
+  margin-top: 24px;
+}
+
+.header ul li a {
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.container {
+  background-image: url(/folderis/Paveiksliukai/Pagrindinis/Rectangle\ 3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 931px;
+}
+.container h1 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 113px;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.container p {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 45px;
+  color: #ffffff;
+  margin: 0 auto;
+}
+.container button {
+  padding: 15px 34px;
+  gap: 10px;
+  width: 215px;
+  height: 48px;
+  background: linear-gradient(180deg, #00d4e4 -40.5%, #1f59ee 97.28%);
+  border-radius: 24px;
+  color: white;
+}
+.pagrindinis {
+  background-image: url(/folderis/Paveiksliukai/Pagrindinis/Lithuania.png);
+  background-size: cover;
+}
+.zemelapis {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+  position: absolute;
+  width: 1320px;
+  height: 96px;
+  left: 300px;
+  top: 1167px;
+  margin-top: 167px;
+}
+.dvaras {
+  display: flex;
+  flex-direction: column;
+  margin-top: 456px;
+  margin-left: 300px;
+  width: 809px;
+  height: 634px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(122, 116, 116, 0.1);
+}
+
+.pagrindinis .dvaras h2 {
+  width: 194px;
+  height: 16px;
+  left: 74px;
+  top: 70.14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #a6a6a6;
+}
+.pagrindinis .dvaras h3 {
+  width: 346.78px;
+  height: 33px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 136.19%;
+  text-transform: capitalize;
+  color: #4b4b4b;
+}
+.pagrindinis .dvaras h4 {
+  width: 167.55px;
+  height: 19px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 136.19%;
+  color: #666666;
+}
+.pagrindinis .dvaras h5 {
+  width: 486px;
+  height: 42px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 148.19%;
+  color: #888888;
+}
+.dvaras .mgt1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 15px 34px;
+  gap: 10px;
+  width: 232px;
+  height: 49px;
+  border-radius: 24px;
+  flex: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #00d4e4 -40.5%, #1f59ee 97.28%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

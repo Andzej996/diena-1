@@ -1,0 +1,71 @@
+body {
+  background: black;
+  padding: 105px;
+}
+
+.blokas-wraper {
+}
+
+.blokas {
+  background: rgba (34, 34, 37, 0.7);
+  padding: 66px 72px;
+  border-radius: 12px;
+  margin: auto;
+}
+
+.blokas h1 {
+  /* div */
+
+  position: absolute;
+  width: 675px;
+  height: 355px;
+  left: calc(50% - 675px / 2 + 5.5px);
+  top: calc(50% - 355px / 2);
+
+  background: rgba(34, 34, 37, 0.7);
+  border-radius: 12px;
+  color: rgba(255, 255, 255, 1);
+}
+.button {
+  /* Property 1=Default */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+
+  position: absolute;
+  width: 144px;
+  height: 42px;
+  left: 16px;
+  top: 16px;
+
+  border: 2px solid #f17965;
+  border-radius: 12px;
+  /* Property 1=hover */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+
+  position: absolute;
+  width: 144px;
+  height: 42px;
+  left: 16px;
+  top: 74px;
+
+  background: #f79090;
+  border: 2px solid #f17965;
+  border-radius: 12px;
+}

@@ -1,0 +1,106 @@
+.body {
+  font-style: normal;
+}
+
+.blokas {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 376px;
+  height: 629px;
+  background: #ffffff;
+  border: 1px solid #84ad40;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+  flex-grow: 0;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 1024px) {
+  .blokas;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .blokas;
+}
+
+@media only screen and (max-width: 767px) {
+  .blokas;
+}
+
+.wraper {
+  width: 100%;
+  max-height: 400px;
+  height: auto;
+  background: url(.jpg);
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.blokas p {
+  position: relative;
+  width: 201px;
+  height: 29px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding-left: 15px;
+  top: 15px;
+}
+.blokas .mazesnis {
+  position: relative;
+  width: 328px;
+  height: 18px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #777777;
+  flex: none;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-bottom: 25px;
+  top: -5px;
+}
+.blokas .darmaziau {
+  width: 96px;
+  height: 15px;
+  left: 0px;
+  top: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7d9458;
+}
+.blokas button {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding: 12px 32px;
+  gap: 8px;
+  margin: 0 auto;
+  width: 100px;
+  height: 41px;
+  background: #84ad40;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  top: 20px;
+  left: 100px;
+}

@@ -1,0 +1,217 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url(https://s3-alpha-sig.figma.com/img/ac14/319a/0cad7c4bb9927f868bc902ef087041c0?Expires=1738540800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UvReRsvNTUB--pD~6R3f7MLPWkhQZ1F0H773949zgZ1qu5K6SpVPzCOg7XkRnttoartcIi0VjIoFcd5oFRysaJc-OPE-8Atof7OCFdc72GoszcSl7yrH603PCX1Qz9KK4PGmmFA1WkojbnLZAOkd4K8ZhksbtR-r3jXjE7bG4eqPfyzjvEMIEioDl5f1ev4kAj9wyVvyzCd8mHfg8RAIrJ6UWMiVi4XWrjKH5RiOZS8sKJNK-SQMjFCjPjKPH4KJq1buKg5ED1X9YsGsg2IY9YEnbgEDDn5Cr7UPq4NUt6Le2WILATkRbax-iENkGpm-7NQH6e0N5pwnSRqvRwYNUA__);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: darken;
+  background-attachment: fixed;
+  width: 100%;
+  height: 689px;
+  padding: 50px 0 70px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  color: white;
+}
+
+.header .virsus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .apacia {
+  max-width: 65%;
+}
+
+.header .apacia h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+header nav ul li {
+  display: inline-block;
+  margin-right: 40px;
+}
+header nav ul li:last-child {
+  margin-right: 0;
+}
+header nav ul li a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  text-decoration: none;
+}
+header nav ul li button {
+  padding: 16px 32px;
+
+  background: #e12e60;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 0;
+
+  color: #ffffff;
+}
+
+.raudonas-blokas {
+  background: #ef5d69;
+  padding: 67px 60px;
+}
+
+.raudonas-blokas .turinys {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 60px 40px;
+  gap: 60px;
+
+  background: #fcdfe1;
+  border-radius: 8px;
+  flex-wrap: wrap;
+}
+.raudonas-blokas .turinys > div {
+  width: calc(25% - 30px);
+}
+.raudonas-blokas .turinys > div:first-child {
+  width: calc(50% - 60px);
+}
+
+.rausvas-blokas {
+  background: #fcdfe1;
+}
+
+.rausvas-blokas .turinys {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 127px 40px;
+}
+
+.rausvas-blokas .turinys > div:first-child {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 65px 50px;
+  width: calc(40% - 140px);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+
+  color: #000000;
+}
+
+.rausvas-blokas .turinys > div:nth-child(2) {
+  width: 60%;
+}
+
+.rausvas-blokas .turinys img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 8px;
+}
+
+footer {
+  background: black;
+  padding: 15px 0;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer > div:last-child {
+  display: flex;
+  gap: 16px;
+}
+
+@media only screen and (max-width: 680px) {
+  header {
+    background-position: center center;
+  }
+  .header .virsus {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  .header .virsus div {
+    width: 100%;
+    text-align: center;
+  }
+  header nav ul li {
+    display: block;
+    margin: 0;
+    margin-top: 15px;
+  }
+  .header .apacia {
+    max-width: 100%;
+    text-align: center;
+  }
+  .header .apacia h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .raudonas-blokas .turinys > div,
+  .rausvas-blokas .turinys > div,
+  .footer > div {
+    width: 100% !important;
+  }
+  .footer {
+    text-align: center;
+    gap: 30px;
+  }
+  .footer > div:last-child {
+    justify-content: center;
+  }
+}
