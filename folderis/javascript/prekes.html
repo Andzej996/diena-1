@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+      .prekiu-sarasas {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .preke {
+        width: 25%;
+        border: 1px solid black;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+      }
+      .preke div:first-child {
+        height: 200px;
+        overflow: hidden;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="prekes.js"></script>
+  </body>
+</html>

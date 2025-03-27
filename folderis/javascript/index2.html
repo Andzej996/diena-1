@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background: white;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .container {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        display: flex;
+      }
+      .container form {
+        width: 60%;
+      }
+
+      .container form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .container form label input {
+        display: block;
+        width: 100%;
+        padding: 5px;
+      }
+
+      .container .kaina {
+        width: 100%;
+      }
+      .container .kaina .fonas {
+        background: green;
+        padding: 14px;
+        border-radius: 10px;
+        width: 100%;
+        border: 1px solid red;
+      }
+      .container .kaina .fonas h2 {
+        margin-top: 0;
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <form>
+          <label
+            >Ilgis
+            <input type="number" name="Ilgis" />
+          </label>
+          <label
+            >Plotis
+            <input type="number" name="Plotis" />
+          </label>
+          <label
+            >Gylis
+            <input type="number" name="Gylis" />
+          </label>
+        </form>
+        <div class="kaina"></div>
+      </div>
+    </div>
+  </body>
+</html>

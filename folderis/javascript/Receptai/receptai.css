@@ -1,0 +1,22 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.pagrindinis {
+  position: absolute;
+  width: 600px;
+  height: 305px;
+  left: 660px;
+  top: 103px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pagrindinis.korta {
+  position: absolute;
+  width: 133px;
+  height: 214px;
+  left: 690px;
+  top: 168px;
+}
